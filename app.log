@@ -1,0 +1,53 @@
+2020-06-22 19:57:25.201  INFO 64422 --- [main] c.e.demo.DemoJpaManyToOneApplication     : Starting DemoJpaManyToOneApplication on C02ZK49VLVDR with PID 64422 (/Users/hy665678/Documents/workspace-sts-3.9.11.RELEASE/demo-jpa-many-to-one/target/classes started by hy665678 in /Users/hy665678/Documents/workspace-sts-3.9.11.RELEASE/demo-jpa-many-to-one)
+2020-06-22 19:57:25.203  INFO 64422 --- [main] c.e.demo.DemoJpaManyToOneApplication     : No active profile set, falling back to default profiles: default
+2020-06-22 19:57:25.663  INFO 64422 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-22 19:57:25.710  INFO 64422 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40ms. Found 2 JPA repository interfaces.
+2020-06-22 19:57:26.120  INFO 64422 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-22 19:57:26.129  INFO 64422 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-22 19:57:26.129  INFO 64422 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-22 19:57:26.189  INFO 64422 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-22 19:57:26.189  INFO 64422 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 950 ms
+2020-06-22 19:57:26.225  INFO 64422 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-22 19:57:26.385  INFO 64422 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-22 19:57:26.391  INFO 64422 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:h2db'
+2020-06-22 19:57:26.509  INFO 64422 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-22 19:57:26.621  INFO 64422 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-22 19:57:26.649  WARN 64422 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-22 19:57:26.673  INFO 64422 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-06-22 19:57:26.807  INFO 64422 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-22 19:57:26.934  INFO 64422 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-06-22 19:57:26.979  INFO 64422 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-22 19:57:26.980  INFO 64422 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-06-22 19:57:27.501  INFO 64422 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-22 19:57:27.506  INFO 64422 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-22 19:57:27.652  INFO 64422 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-06-22 19:57:27.659  INFO 64422 --- [main] c.e.demo.DemoJpaManyToOneApplication     : Started DemoJpaManyToOneApplication in 2.737 seconds (JVM running for 3.047)
+2020-06-22 19:58:07.523  INFO 64422 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-22 19:58:07.523  INFO 64422 --- [SpringContextShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-06-22 19:58:07.527  INFO 64422 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-22 19:58:07.528  INFO 64422 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-06-22 19:58:07.530  INFO 64422 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-06-22 20:00:23.680  INFO 64537 --- [main] c.e.demo.DemoJpaManyToOneApplication     : Starting DemoJpaManyToOneApplication on C02ZK49VLVDR with PID 64537 (/Users/hy665678/Documents/workspace-sts-3.9.11.RELEASE/demo-jpa-Mto1-MtoM/target/classes started by hy665678 in /Users/hy665678/Documents/workspace-sts-3.9.11.RELEASE/demo-jpa-Mto1-MtoM)
+2020-06-22 20:00:23.682  INFO 64537 --- [main] c.e.demo.DemoJpaManyToOneApplication     : No active profile set, falling back to default profiles: default
+2020-06-22 20:00:24.152  INFO 64537 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-22 20:00:24.198  INFO 64537 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39ms. Found 2 JPA repository interfaces.
+2020-06-22 20:00:24.614  INFO 64537 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-22 20:00:24.624  INFO 64537 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-22 20:00:24.624  INFO 64537 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-22 20:00:24.683  INFO 64537 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-22 20:00:24.683  INFO 64537 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 965 ms
+2020-06-22 20:00:24.719  INFO 64537 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-22 20:00:24.903  INFO 64537 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-22 20:00:24.910  INFO 64537 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:h2db'
+2020-06-22 20:00:25.054  INFO 64537 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-22 20:00:25.158  INFO 64537 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-22 20:00:25.183  WARN 64537 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-22 20:00:25.202  INFO 64537 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-06-22 20:00:25.327  INFO 64537 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-22 20:00:25.449  INFO 64537 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-06-22 20:00:25.482  INFO 64537 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-22 20:00:25.483  INFO 64537 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-06-22 20:00:26.019  INFO 64537 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-22 20:00:26.024  INFO 64537 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-22 20:00:26.171  INFO 64537 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-06-22 20:00:26.178  INFO 64537 --- [main] c.e.demo.DemoJpaManyToOneApplication     : Started DemoJpaManyToOneApplication in 2.79 seconds (JVM running for 3.103)
